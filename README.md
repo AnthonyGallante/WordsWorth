@@ -81,7 +81,7 @@ You can modify the game's parameters by editing the following files:
 ## Technical Implementation
 
 ### Word Selection
-The game uses a dictionary of 1,000 five-letter English words. It automatically downloads a word list from the internet or generates one if the download fails. The list is filtered to include only 5-letter words and stored in the `resources` directory.
+The game uses a dictionary of 2,315 five-letter English words. The list is filtered to include only 5-letter words and stored in the `resources` directory.
 
 ### Game Logic
 The core game logic is separated from the GUI, making it easier to modify or extend. The `WordleGame` class in `wordle_game.py` handles:

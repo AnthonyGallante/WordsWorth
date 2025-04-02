@@ -43,7 +43,7 @@ WordsWorth/
 
 1. Clone the repository or download the source code:
    ```
-   git clone https://github.com/yourusername/WordsWorth.git
+   git clone https://https://github.com/AnthonyGallante/WordsWorth
    cd WordsWorth
    ```
 
@@ -102,7 +102,7 @@ The GUI is built with Tkinter and features:
 
 ## Credits
 
-Developed by [Your Name/Organization]
+Developed by Anthony Gallante
 
 Inspired by:
 - Wordle (by Josh Wardle)

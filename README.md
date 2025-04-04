@@ -2,6 +2,8 @@
 
 A Wordle-like word puzzle game with resource management mechanics, built using Python and Tkinter.
 
+![WordsWorth](https://github.com/user-attachments/assets/47115ac7-3c01-45af-899b-562c8a953fd0)
+
 ## Game Overview
 
 WordsWorth combines the popular word-guessing mechanics of Wordle with a resource management system. Players need to guess a 5-letter word while managing their coin economy.

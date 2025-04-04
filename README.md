@@ -2,7 +2,7 @@
 
 A Wordle-like word puzzle game with resource management mechanics, built using Python and Tkinter.
 
-![WordsWorth](https://github.com/user-attachments/assets/47115ac7-3c01-45af-899b-562c8a953fd0)
+https://github.com/user-attachments/assets/f12a666f-1d9e-426e-bc77-2b924e6f614c
 
 ## Game Overview
 

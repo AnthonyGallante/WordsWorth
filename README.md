@@ -11,7 +11,7 @@ WordsWorth combines the popular word-guessing mechanics of Wordle with a resourc
 ### Game Rules
 
 1. **Objective**: Guess the hidden 5-letter word within 6 attempts.
-2. **Resource Management**: Players start with 10 coins (💰) and spend them to guess letters.
+2. **Resource Management**: Players start with 12 coins (💰) and spend them to guess letters.
    - Non-vowel letters cost 1 coin each
    - Vowels (A, E, I, O, U) cost 3 coins each
    - **Letters that have been guessed previously become FREE in subsequent guesses**
@@ -83,7 +83,7 @@ You can modify the game's parameters by editing the following files:
 ## Technical Implementation
 
 ### Word Selection
-The game uses a dictionary of 2,315 five-letter English words. The list is filtered to include only 5-letter words and stored in the `resources` directory.
+The game uses a dictionary of 2,315 five-letter English words (The original Wordle answer list). The list is filtered to include only 5-letter words and stored in the `resources` directory.
 
 ### Game Logic
 The core game logic is separated from the GUI, making it easier to modify or extend. The `WordleGame` class in `wordle_game.py` handles:
@@ -94,12 +94,8 @@ The core game logic is separated from the GUI, making it easier to modify or ext
 
 ### User Interface
 The GUI is built with Tkinter and features:
-- A larger window (550x800) to ensure all letters fit properly
-- A game board with spacious colored tiles
-- An on-screen keyboard with standardized key sizes in QWERTY layout
-- Coin emoji (💰) displays instead of the word "coin" 
-- Properly spaced elements to prevent overlapping
-- Action buttons of equal size for a more uniform appearance
+- A 550x800 window
+- An on-screen keyboard in QWERTY layout
 - A display of previously guessed (free) letters for easier tracking
 
 ## Credits
